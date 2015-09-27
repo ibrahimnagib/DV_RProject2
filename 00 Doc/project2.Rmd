@@ -1,0 +1,22 @@
+---
+title: "Project 2"
+output: html_document
+---
+
+
+#### This html page, produced by creating an R markdown document, and using KnitR to knit the file into html. The purpose of this html file, is to show our analysis of the Titanic data in the oracle database, as well as show the steps required to reproduce our findings, given the same data. The data for titanic included, the number of passengers, names, how many survived, sex, age, and how much they had paid for their fare. Given these variables, we were able to query the data base in a few different ways, to gather results, and visualize them using ggplot. 
+
+
+
+##### Rprofile.R:
+An Rprofile.R document was created to include all of the packages required for the project, in order to avoid requiring packages in each of the R script files. Below is the call to the Rprofile document, and shows the necessary packages being loaded:
+
+
+```{r}
+source("../Rprofile.R", echo = FALSE)
+```
+
+#### Data:
+Below is are the summary statistics for the data on titanic, as well as "head", which displays the first 6 items in the data set.
+
+
