@@ -19,4 +19,8 @@ source("../Rprofile.R", echo = FALSE)
 #### Data:
 Below is are the summary statistics for the data on titanic, as well as "head", which displays the first 6 items in the data set.
 
+```{r}
+source("../01 Data/Project2.R", echo = TRUE)
+```
+
 
