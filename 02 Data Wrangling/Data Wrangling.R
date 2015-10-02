@@ -15,7 +15,7 @@ ggplot() +
   labs(title='Bar Graph of LPG (Liquidified Petroleum Gas) Usage by Country in 2012 (Metric Tons') +
   labs(x="Country", y=paste("LPG Usage in Metric Tons")) +
   layer(data=QY, 
-        mapping=aes(x=COUNTRY_OR_AREA, y=as.numeric(QUANTITY)), 
+        mapping=aes(x=COUNTRY_OR_AREA, y=as.numeric(as.character(QUANTITY)), 
         stat="identity",
         stat_params=list(),
         geom="bar",
