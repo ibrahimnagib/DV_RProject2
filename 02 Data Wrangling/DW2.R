@@ -12,7 +12,7 @@ ggplot() +
   coord_cartesian() + 
   scale_x_continuous() +
   scale_y_continuous() +
-  labs(title='LPG (Liquidified Petroleum Gas) Consumption ') +
+  labs(title='LPG Consumption of Countries under U.S. Sanction') +
   labs(x="Year", y=paste("LPG Usage in Metric Tons")) +
   theme_bw() +
   layer(data=QY, 

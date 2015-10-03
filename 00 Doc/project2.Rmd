@@ -24,22 +24,22 @@ source("../01 Data/Project2.R", echo = TRUE)
 ```
 
 #### Data Wrangling set 1:
-Below is our first visualization of a subset of the data. The bar graph shows a representation of the consumption of LPG between the United States, and the 5 countries sanctioned by the United States. The graph clearly shows the enormous consumption gap.
-
-```{r}
-source("../02 Data Wrangling/DW1.R", echo = TRUE)
-```
-
-#### Data Wrangling set 2:
-Below a visualization of a subset of the data. 
+Below is our first visualization of a subset of the data. The point graph shows a representation of the consumption of LPG between the United States, and the 5 countries sanctioned by the United States over the years 1990-2012. The graph clearly shows the enormous consumption gap between the United States and these countries that have U.S. sanctions.
 
 ```{r}
 source("../02 Data Wrangling/DW2.R", echo = TRUE)
 ```
 
-#### Data Wrangling set 3:
-Below is a visualization of a subset of the data. 
+#### Data Wrangling set 2:
+Below a visualization of a subset of the data. For this visualization, we wanted to observe a global trend for consumption of LPG over the time period 1990-2012. The data clearly shows the same gap, between a few countries that consume vastly more LPG then the remaining majority of countries. This helps visualize the global wealth gap between developed countries, and a majority of underdeveloped or developing countries.
 
 ```{r}
 source("../02 Data Wrangling/DW3.R", echo = TRUE)
+```
+
+#### Data Wrangling set 3:
+Below is a visualization of a subset of the data. We thought it would be insightful to see how the global financial crisis in 2008 affected some of the world's largest countries. To our complete surprise, the data visualization showed little to no change in the years following the financial crisis for all countries grouped in the subset used. 
+
+```{r}
+source("../02 Data Wrangling/DW4.R", echo = TRUE)
 ```
